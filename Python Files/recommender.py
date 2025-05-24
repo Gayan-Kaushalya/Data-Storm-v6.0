@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 
-df = pd.read_csv("agent_performance.csv") 
+df = pd.read_csv("../agent_performance.csv") 
 
 st.title("Intervention Recommendation Assistant")
 

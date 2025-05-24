@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-train = pd.read_csv("train_storming_round.csv")  
+train = pd.read_csv("../train_storming_round.csv")  
 
 train['year_month'] = pd.to_datetime(train['year_month'], format='%m/%d/%Y')
 train.set_index('year_month', inplace=True)
